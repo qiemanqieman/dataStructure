@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/bracketsmatching/bracketsStack.h
+../seqstack.h
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/seqstack.h
+
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/bracketsmatching/main.cpp
+stdio.h
+-
+bracketsStack.h
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/bracketsmatching/bracketsStack.h
+
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/seqstack.h
+stack.h
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/stack.h
+iostream
+-
+
+/home/q/qiemanqieman/study/2020_2021_2/dataStructure/stack.h
+

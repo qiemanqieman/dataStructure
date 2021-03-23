@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/q/slink/datastructure/binarytree.h
+btree.h
+/home/q/slink/datastructure/btree.h
+iostream
+-
+linkqueue.h
+/home/q/slink/datastructure/linkqueue.h
+linkStack.h
+/home/q/slink/datastructure/linkStack.h
+
+/home/q/slink/datastructure/btree.h
+
+/home/q/slink/datastructure/linkStack.h
+stack.h
+/home/q/slink/datastructure/stack.h
+iostream
+-
+
+/home/q/slink/datastructure/linkqueue.h
+queue.h
+/home/q/slink/datastructure/queue.h
+
+/home/q/slink/datastructure/main.cpp
+iostream
+-
+binarytree.h
+/home/q/slink/datastructure/binarytree.h
+
+/home/q/slink/datastructure/queue.h
+
+/home/q/slink/datastructure/stack.h
+
