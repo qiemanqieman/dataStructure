@@ -29,6 +29,8 @@ maze.h
 /home/q/slink/datastructure/linkStack.h
 iostream
 -
+iomanip
+-
 
 /home/q/slink/datastructure/stack.h
 

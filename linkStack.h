@@ -21,10 +21,11 @@ public:
     linkStack(){Top = nullptr;}
     linkStack(const elemType* e, int len);
     ~linkStack();
-    void push(const elemType &e);
-    elemType pop();
     [[nodiscard]] bool empty() const;
     elemType top() const;
+    bool find(const elemType &x);
+    void push(const elemType &e);
+    elemType pop();
 };
 
 
@@ -70,4 +71,15 @@ template <class elemType>
 elemType linkStack<elemType>::top() const{
     if (!Top) throw operateEmptyStackError();
     return Top->data;
+}
+
+template <class elemType>
+bool linkStack<elemType>::find(const elemType &x){
+    node *p = Top;
+    while(p){
+        if (p->data == x) return true;
+        p = p->next;
+    }
+
+    return false;
 }

@@ -9,11 +9,13 @@
 #include "../linkqueue.h"
 #include "../linkStack.h"
 #include <iostream>
+#include <iomanip>
 
 
 struct cordination{
     int x;
     int y;
+    bool operator==(const cordination &other) const{ return other.x == x and other.y == y;}
 };
 
 
@@ -27,6 +29,7 @@ public:
     maze(int **mat, int r, int c);
     [[nodiscard]] bool is_road(const cordination &c) const;
     [[nodiscard]] int find_shortest_way() const;
+    void print_maze() const;
 };
 
 
@@ -61,7 +64,7 @@ int maze::find_shortest_way() const {
     cordination cur, last;
     int count = 0;
     linkQueue<cordination> que;
-    linkStack<cordination> s;
+    linkStack<cordination> s, s1;
     cur = {0, 0};
     que.push(cur);
     while(!que.empty()){
@@ -105,43 +108,67 @@ int maze::find_shortest_way() const {
     }
     
     count = tmp[row - 1][column - 1];
-    s.push(cur);
+    s.push(cur);s1.push(cur);
     while(count--){
         last = cur;
         cur = {last.x - 1, last.y};
         if (cur.x < row and cur.x >= 0 and cur.y < column and cur.y >= 0 and tmp[cur.x][cur.y] == count){
-            s.push(cur);
+            s.push(cur);s1.push(cur);
             continue;
         }
         
         cur = {last.x, last.y + 1};
         if (cur.x < row and cur.x >= 0 and cur.y < column and cur.y >= 0 and tmp[cur.x][cur.y] == count){
-            s.push(cur);
+            s.push(cur);s1.push(cur);
             continue;
         }
 
         cur = {last.x + 1, last.y};
         if (cur.x < row and cur.x >= 0 and cur.y < column and cur.y >= 0 and tmp[cur.x][cur.y] == count){
-            s.push(cur);
+            s.push(cur);s1.push(cur);
             continue;
         }
 
         cur = {last.x, last.y - 1};
         if (cur.x < row and cur.x >= 0 and cur.y < column and cur.y >= 0 and tmp[cur.x][cur.y] == count){
-            s.push(cur);
+            s.push(cur);s1.push(cur);
             continue;
         }
     }
     
-    std::cout << "Shortest road from source to destination: \n";
+    std::cout << "\nShortest way from source to destination: \n";
     while(!s.empty()){
         ++count;
         if (count % 5 == 0 and count > 0) std::cout << std::endl;
         cur = s.pop();
-        std::cout << "(" << cur.x << ", " << cur.y<< ") -> ";
+        std::cout << "(" << std::left <<  std::setw(2) << cur.x << ", " << std::setw(2) << cur.y<< ") -> ";
         std::flush(std::cout);
     }
-    std::cout << "\b\b\b";
+    std::cout << "\b\b\b\n\nThe map matrix for maze(integers represent the distance from source, -1 means cannot be reached):\n";
+
+    std::cout << "    ";
+    for (int i = 0; i < column; ++i){
+        std::cout<< "\033[32m";
+        std::cout << std::left << std::setw(4) << i;
+    }
+    printf("\033[0m");
+    std::cout << std::endl;
+    for (int i = 0; i < row; ++i){
+        std::cout<< "\033[32m";
+        std::cout << std::setw(4) << i;
+        printf("\033[0m");
+        for (int j = 0; j < column; ++j){
+            cur = {i, j};
+            if (s1.find(cur)){
+                std::cout<< "\033[31m";
+                std::cout << std::left << std::setw(4) << tmp[i][j];
+                printf("\033[0m");
+            }
+            else if (tmp[i][j] == column * row) std::cout << std::setw(4) << -1;
+            else std::cout << std::setw(4) << tmp[i][j];
+        }
+        std::cout << std::endl;
+    }
 
     return tmp[row - 1][column - 1];
 }
@@ -150,6 +177,27 @@ bool maze::is_road(const cordination &c) const
 {
     return c.x < row and c.x >= 0 and c.y < column and c.y >= 0
          and routine[c.x][c.y] == 0;
+}
+
+void maze::print_maze() const {
+    cordination c;
+    std::cout << "The matrix of maze(√ for road, × for walls): \n";
+    std::cout << "   ";
+    for (int i = 0; i < column; ++i){
+        std::cout << "\033[32m" << std::left << std::setw(3) << i;
+        printf("\033[0m");
+    }
+    std::cout << std::endl;
+    for (int i = 0; i < row; ++i){
+        std::cout << "\033[32m" << std::setw(3) << i;
+        printf("\033[0m");
+        for (int j = 0; j < column; ++j){
+            c = {i, j};
+            if (is_road(c)) std::cout << "√  ";
+            else std::cout << "×  ";
+        }
+        std::cout << std::endl;
+    }
 }
 
 #endif //SHORTESTMAZEWAY_MAZE_H

@@ -38,10 +38,12 @@ private:
 //    void post_order(node<T>* t) const;
     int size(node<T> *t) const;
     int height(node<T> *t) const;
+    node<T> *build_tree(const T pre[], const T mid[], int ps, int pe, int ms, int me);
 public:
     explicit binaryTree(node<T>*  n = nullptr) : Root(n){}
     ~binaryTree(){clear(Root);}
     void create_tree(T flag);
+    void build_tree(const T pre[], const T mid[], int n);   // build tree from the given pre_order and mid_order
     void clear();
     [[nodiscard]] bool empty() const;
     T root(T flag) const;
@@ -279,7 +281,7 @@ void print_tree(const binaryTree<T> &t, T flag){
 //    q.push(cordi);
     linkQueue<T> q;
     q.push(t.root(flag));
-    std::cout << std::endl;
+    std::cout << std::endl << "Parent" << " Lchild" << " Rchild:" << std::endl;
     while(!q.empty()){
         T p, l, r;
         p = q.pop();
@@ -293,10 +295,35 @@ void print_tree(const binaryTree<T> &t, T flag){
 //            std::cout << p.data;
 //
 //        }
-        std::cout << p << ' ' << l << ' ' << r << std::endl;
+        std::cout << p << "\t\t" << l << "\t\t" << r << std::endl;
         if (l != flag) q.push(l);
         if (r != flag) q.push(r);
     }
+}
+
+template<class T>
+void binaryTree<T>::build_tree(const T *pre, const T *mid, int n) {
+    clear(Root);
+    Root = build_tree(pre, mid, 0, n - 1, 0, n - 1);
+}
+
+template<class T>
+node<T> *binaryTree<T>::build_tree(const T *pre, const T *mid, int ps, int pe, int ms, int me) {
+    if (ps > pe) return nullptr;
+    auto t = new node<T>(pre[ps]);
+    int left_mid_s = ms, left_mid_e, left_pre_s = ps + 1, left_pre_e, right_mid_s, right_mid_e = me, right_pre_s, right_pre_e = pe;
+    for (int i = ms; i <= me; ++i){
+        if (mid[i] == pre[ps]){
+            left_mid_e = i - 1;
+            right_mid_s = i + 1;
+            left_pre_e = ps + 1 + left_mid_e - left_mid_s;
+            right_pre_s = left_pre_e + 1;
+            break;
+        }
+    }
+    t->left = build_tree(pre, mid, left_pre_s, left_pre_e, left_mid_s, left_pre_e);
+    t->right = build_tree(pre, mid, right_pre_s, right_pre_e, right_mid_s, right_mid_e);
+    return t;
 }
 
 // implement traverse recursively
