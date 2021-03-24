@@ -6,11 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/q/slink/datastructure/shortestMazeWay/main.cpp
-cstring
--
+/home/q/slink/datastructure/linkStack.h
+stack.h
+/home/q/slink/datastructure/stack.h
 iostream
 -
-ctime
+
+/home/q/slink/datastructure/linkqueue.h
+queue.h
+/home/q/slink/datastructure/queue.h
+
+/home/q/slink/datastructure/queue.h
+
+/home/q/slink/datastructure/shortestMazeWay/main.cpp
+maze.h
+/home/q/slink/datastructure/shortestMazeWay/maze.h
+
+/home/q/slink/datastructure/shortestMazeWay/maze.h
+../linkqueue.h
+/home/q/slink/datastructure/linkqueue.h
+../linkStack.h
+/home/q/slink/datastructure/linkStack.h
+iostream
 -
+
+/home/q/slink/datastructure/stack.h
 
