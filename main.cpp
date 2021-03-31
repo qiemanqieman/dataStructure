@@ -5,6 +5,7 @@
 
 
 int main() {
+    std::cout << "";
 //    binaryTree<char> tree;
 //    tree.create_tree('@');
 //    tree.pre_order();
