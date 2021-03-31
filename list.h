@@ -1,3 +1,6 @@
+class OutOfBoundError{};
+
+
 template <class elemType>
 class list{
     public:
