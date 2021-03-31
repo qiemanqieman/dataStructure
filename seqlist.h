@@ -12,16 +12,18 @@ private:
     int max_size, current_size;
     T *elem;
     void double_space();
+
 public:
-    seqList(int init_size = 10){max_size = init_size; current_size = 0; elem = new T[init_size];}
+    explicit seqList(int init_size = 10){max_size = init_size; current_size = 0; elem = new T[init_size];}
     ~seqList(){ delete [] elem;}
-    int search(const T & x) const = 0;
-    T visit(int i) const = 0;
-    void traverse() const = 0;
-    int length() const { return current_size;}
+    [[nodiscard]] bool empty() {return current_size == 0;}
+    int search(const T & x) const;
+    T visit(int i) const;
+    void traverse() const;
+    [[nodiscard]] int length() const { return current_size;}
     void clear() {current_size = 0;}
-    void insert(int i, const T &x) = 0;
-    void remove(int i) = 0;
+    void insert(int i, const T &x);
+    void remove(int i);
 };
 
 
@@ -53,6 +55,7 @@ void seqList<T>::traverse() const {
     std::cout << std::endl << "Traverse the list:\n";
     for (int i = 0; i < current_size; ++i)
         std::cout << elem[i] << ' ';
+    std::cout << std::endl;
 }
 
 template <class T>

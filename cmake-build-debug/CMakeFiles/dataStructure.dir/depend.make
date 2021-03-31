@@ -4,8 +4,11 @@
 CMakeFiles/dataStructure.dir/main.cpp.o: ../binarytree.h
 CMakeFiles/dataStructure.dir/main.cpp.o: ../btree.h
 CMakeFiles/dataStructure.dir/main.cpp.o: ../linkStack.h
+CMakeFiles/dataStructure.dir/main.cpp.o: ../linklist.h
 CMakeFiles/dataStructure.dir/main.cpp.o: ../linkqueue.h
+CMakeFiles/dataStructure.dir/main.cpp.o: ../list.h
 CMakeFiles/dataStructure.dir/main.cpp.o: ../main.cpp
 CMakeFiles/dataStructure.dir/main.cpp.o: ../queue.h
+CMakeFiles/dataStructure.dir/main.cpp.o: ../seqlist.h
 CMakeFiles/dataStructure.dir/main.cpp.o: ../stack.h
 
