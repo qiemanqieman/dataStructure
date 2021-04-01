@@ -1,7 +1,5 @@
 #include <iostream>
 #include "cycleddoublelinklist.h"
-#include "seqlist.h"
-#include "algorithm.h"
 using namespace std;
 
 int main() {
