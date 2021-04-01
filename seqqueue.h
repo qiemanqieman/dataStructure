@@ -5,6 +5,7 @@
 #ifndef SEQQUEUE_SEQQUEUE_H
 #define SEQQUEUE_SEQQUEUE_H
 
+//circled sequence queue
 #include "queue.h"
 
 class emptyError{};

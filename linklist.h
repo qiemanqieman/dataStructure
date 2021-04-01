@@ -5,6 +5,7 @@
 #ifndef DATASTRUCTURE_LINKLIST_H
 #define DATASTRUCTURE_LINKLIST_H
 
+
 #include "list.h"
 
 
@@ -18,17 +19,21 @@ private:
         explicit node(const T &x, node *n = nullptr):data(x), next(n){}
     };
     node *head;
+    int len;
 public:
-    linkList(){head = new node(); head->data = 0;}
+    linkList(){head = new node(); len = 0;}
     ~linkList(){clear(); delete head;}
     int search(const T & x) const;
     T visit(int i) const;
     void traverse() const;
-    [[nodiscard]] bool empty() const { return head->data == 0;}
-    [[nodiscard]] int length() const { return head->data;}
+    [[nodiscard]] bool empty() const { return len == 0;}
+    [[nodiscard]] int length() const { return len;}
     void clear();
     void insert(int i, const T &x);
     void remove(int i);
+    void remove_back(node *n);  // remove node after n;
+    void reverse(); //插脖子法　O(n)
+    void remove_duplicate_neighbouring_elements();
 };
 
 
@@ -46,7 +51,7 @@ int linkList<T>::search(const T &x) const {
 
 template <class T>
 T linkList<T>::visit(int i) const{
-    if (i < 0 or i > head->data - 1) throw OutOfBoundError();
+    if (i < 0 or i > len - 1) throw OutOfBoundError();
     node *p = head->next;
     while(i--) p = p->next;
     return p->data;
@@ -73,27 +78,60 @@ void linkList<T>::clear() {
     }
     head->next = nullptr;
     head->data = 0;
+    len = 0;
 }
 
 template <class T>
 void linkList<T>::insert(int i, const T &x) {
-    if (i < 0 or i > head->data) throw OutOfBoundError();
+    if (i < 0 or i > len) throw OutOfBoundError();
     node *p = head;
     while(i--)
         p = p->next;
     p->next = new node(x, p->next);
-    ++head->data;
+    ++len;
 }
 
 template <class T>
 void linkList<T>::remove(int i) {
-    if (i < 0 or i > head->data - 1) throw OutOfBoundError();
+    if (i < 0 or i > len - 1) throw OutOfBoundError();
     node *p = head, *q;
     while(i--) p = p->next;
     q = p->next;
     p->next = q->next;
     delete q;
-    --head->data;
+    --len;
+}
+
+template<class T>
+void linkList<T>::remove_back(node* n){
+    if (!n) return;
+    node * p = n->next;
+    if (!p) return;
+    n->next = p->next;
+    delete p;
+}
+
+template<class T>
+void linkList<T>::reverse() {
+    node* p = head->next, *q;
+    head->next = nullptr;
+    while(p){
+        q = p->next;
+        p->next = head->next;
+        head->next = p;
+        p = q;
+    }
+}
+
+template <class T>
+void linkList<T>::remove_duplicate_neighbouring_elements() {
+    if (length() < 2) return;
+    node* p = head->next;
+    while(p->next){
+        if (p->data == p->next->data)
+            remove_back(p);
+        else p = p->next;
+    }
 }
 
 

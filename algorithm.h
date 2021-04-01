@@ -1,6 +1,6 @@
-/* algorithm libraray*/
+/* algorithm library*/
 
-
+#pragma once
 /*  KMP algorithm:
  * find whether sting b in a, if in, return the first position in b, else return -1*/
 int find_sub_string(const char *a, const char *b){
@@ -26,7 +26,7 @@ int find_sub_string(const char *a, const char *b){
     while(i < a_len and j < b_len){
         if (a[i] == b[j]) ++i, ++j;
         else if (j == 0) ++i;
-            else j = p[j] + 1;
+        else j = p[j] + 1;
     }
 
     delete[] p;

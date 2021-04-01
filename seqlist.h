@@ -24,6 +24,7 @@ public:
     void clear() {current_size = 0;}
     void insert(int i, const T &x);
     void remove(int i);
+    void reverse();
 };
 
 
@@ -74,5 +75,14 @@ void seqList<T>::remove(int i) {
     for (; i < current_size - 1; ++i)
         elem[i] = elem[i + 1];
     --current_size;
+}
+
+template <class T>
+void seqList<T>::reverse(){
+    T *tmp = elem;
+    elem = new T[max_size];
+    for (int i = current_size - 1; i >= 0; --i)
+        elem[current_size - 1 - i] = tmp[i];
+    delete [] tmp;
 }
 #endif //DATASTRUCTURE_SEQLIST_H
