@@ -44,6 +44,8 @@ Limits:
 0 <= x < 3 * 10^9  ***************************（应该设为unsigned int 或者 long int)
  */
 
+#pragma once
+
 
 class emptyError{};
 

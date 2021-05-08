@@ -1,4 +1,6 @@
 
+
+#pragma once
 //the abstract class of binary tree
 template <class T>
 class bTree{

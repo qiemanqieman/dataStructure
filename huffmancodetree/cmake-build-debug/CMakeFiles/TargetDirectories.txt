@@ -1,3 +1,3 @@
-/home/q/qiemanqieman/study/2020_2021_2/dataStructure/huffmancodetree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/q/qiemanqieman/study/2020_2021_2/dataStructure/huffmancodetree/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/q/qiemanqieman/study/2020_2021_2/dataStructure/huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir
+/home/q/slink/datastructure/huffmancodetree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/q/slink/datastructure/huffmancodetree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/q/slink/datastructure/huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir

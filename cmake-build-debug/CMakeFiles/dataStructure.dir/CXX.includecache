@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/q/slink/datastructure/cycleddoublelinklist.h
-list.h
-/home/q/slink/datastructure/list.h
-
-/home/q/slink/datastructure/list.h
-
 /home/q/slink/datastructure/main.cpp
 iostream
 -
-cycleddoublelinklist.h
-/home/q/slink/datastructure/cycleddoublelinklist.h
-seqlist.h
-/home/q/slink/datastructure/seqlist.h
-
-/home/q/slink/datastructure/seqlist.h
 

@@ -11,15 +11,18 @@
 
 template < class T>
 class linkList: public list<T>{
-private:
+public:
     struct node{
         T data;
         node *next;
         node() = default;
         explicit node(const T &x, node *n = nullptr):data(x), next(n){}
     };
+
+private:
     node *head;
     int len;
+
 public:
     linkList(){head = new node(); len = 0;}
     ~linkList(){clear(); delete head;}

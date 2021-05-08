@@ -1,4 +1,4 @@
-
+#pragma once
 #include "stack.h"
 #include <iostream>
 template <class elemType>

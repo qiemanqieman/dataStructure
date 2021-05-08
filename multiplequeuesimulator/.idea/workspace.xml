@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="multiplequeuesimulator" targetName="multiplequeuesimulator" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff725663-fcef-467b-bdd2-d64c8a3932ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/KthmMaxFraciton.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/KthmMaxFraciton.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KthmMaxFraciton/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../binarysearchtree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bracketsmatching/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dynamicsearchtable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../findclosestcommonancestor/.idea/findclosestcommonancestor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../findclosestcommonancestor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../findclosestcommonancestor/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/multiplequeuesimulator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/multiplequeuesimulator.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/multiplequeuesimulator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/multiplequeuesimulator.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/.idea/number_of_btree_shape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../number_of_btree_shape/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../priorityqueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../binarytree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/bracketsmatching.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/bracketsmatching" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/bracketsmatching" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/bracketsmatching.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/bracketsmatching.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bracketsmatching/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../bracketsmatching/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../btree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/dataStructure.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/dataStructure" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/dataStructure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/huffmancodetree.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../huffmancodetree/cmake-build-debug/huffmancodetree.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linklist.h" beforeDir="false" afterPath="$PROJECT_DIR$/../linklist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list.h" beforeDir="false" afterPath="$PROJECT_DIR$/../list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/../minStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seqstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/../seqstack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/CMakeFiles/shortestMazeWay.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/CMakeFiles/shortestMazeWay.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/shortestMazeWay" beforeDir="false" afterPath="$PROJECT_DIR$/../shortestMazeWay/cmake-build-debug/shortestMazeWay" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1r1cbCCrt80tTavDjvf6APM4wnu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multiplequeuesimulator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="multiplequeuesimulator" TARGET_NAME="multiplequeuesimulator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="multiplequeuesimulator" RUN_TARGET_NAME="multiplequeuesimulator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff725663-fcef-467b-bdd2-d64c8a3932ae" name="Default Changelist" comment="" />
+      <created>1618147105997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618147105997</updated>
+      <workItem from="1618147107213" duration="8045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

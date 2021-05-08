@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/q/qiemanqieman/study/2020_2021_2/dataStructure/huffmancodetree/main.cpp" "/home/q/qiemanqieman/study/2020_2021_2/dataStructure/huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/main.cpp.o"
+  "/home/q/slink/datastructure/huffmancodetree/main.cpp" "/home/q/slink/datastructure/huffmancodetree/cmake-build-debug/CMakeFiles/huffmancodetree.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

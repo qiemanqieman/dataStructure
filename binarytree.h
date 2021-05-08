@@ -1,3 +1,5 @@
+#pragma once
+
 #include "btree.h"
 #include <iostream>
 #include "linkqueue.h"

@@ -3,6 +3,6 @@
 
 CMakeFiles/bracketsmatching.dir/main.cpp.o: ../bracketsStack.h
 CMakeFiles/bracketsmatching.dir/main.cpp.o: ../main.cpp
-CMakeFiles/bracketsmatching.dir/main.cpp.o: /home/q/qiemanqieman/study/2020_2021_2/dataStructure/seqstack.h
-CMakeFiles/bracketsmatching.dir/main.cpp.o: /home/q/qiemanqieman/study/2020_2021_2/dataStructure/stack.h
+CMakeFiles/bracketsmatching.dir/main.cpp.o: /home/q/slink/datastructure/seqstack.h
+CMakeFiles/bracketsmatching.dir/main.cpp.o: /home/q/slink/datastructure/stack.h
 

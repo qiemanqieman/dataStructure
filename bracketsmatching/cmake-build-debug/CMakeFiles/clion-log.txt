@@ -1,4 +1,4 @@
-/home/q/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/q/qiemanqieman/study/2020_2021_2/dataStructure/bracketsmatching
+/home/q/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/q/slink/datastructure/bracketsmatching
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/q/qiemanqieman/study/2020_2021_2/dataStructure/bracketsmatching/cmake-build-debug
+-- Build files have been written to: /home/q/slink/datastructure/bracketsmatching/cmake-build-debug
