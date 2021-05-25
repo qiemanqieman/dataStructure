@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/q/slink/datastructure/avltree.h
+dynamicsearchtree.h
+/home/q/slink/datastructure/dynamicsearchtree.h
+iostream
+-
+
+/home/q/slink/datastructure/dynamicsearchtree.h
+
 /home/q/slink/datastructure/main.cpp
+avltree.h
+/home/q/slink/datastructure/avltree.h
 iostream
 -
 

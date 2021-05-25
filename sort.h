@@ -1,6 +1,17 @@
 #pragma once
 
 
+//集合
+template <class KEY, class OTHER>
+struct SET {
+    KEY key;  //如学号
+    [[maybe_unused]] OTHER other; //包含姓名、性别、出生日期等的结构体变量
+    SET() = default;
+    SET(KEY k, OTHER o) {key = k; other = o;}
+    bool operator<(const SET &x){return this->key < x.key;}
+};
+
+
 //选择排序＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
 //直接插入排序 升序  稳定
 template <class KEY, class OTHER>
@@ -52,7 +63,7 @@ void percolate_down(SET<KEY, OTHER> a[], int hole, int size){
 
     for (; hole*2 + 1 < size; hole = child){
         child = hole * 2 + 1;
-        if (child != size - 1 and a[child + 1].key < a[child].key) ++child;
+        if (child != size - 1 and a[child + 1].key > a[child].key) ++child;
         if (a[child].key > tmp.key) a[hole] = a[child];
         else break;
     }
@@ -63,7 +74,7 @@ template <class KEY, class OTHER>
 void heap_sort(SET<KEY, OTHER> a[], int size){
     int i;
     SET<KEY, OTHER> tmp;
-    for (i = (size - 1) / 2; i > 0; --i) percolate_down(a, i, size);
+    for (i = (size - 1) / 2; i >= 0; --i) percolate_down(a, i, size);
     for (i = size - 1; i >= 0; --i){
         tmp =a[0]; a[0] = a[i]; a[i] = tmp;
         percolate_down(a, 0, i);
@@ -101,7 +112,7 @@ int divide(SET<KEY, OTHER> a[], int low , int high){
 
 template <class KEY, class OTHER>
 void quick_sort(SET<KEY, OTHER> a[], int low, int high){
-    if (low <= high) return;
+    if (low >= high) return;
     int mid = divide(a, low, high);
     quick_sort(a,low, mid-1);
     quick_sort(a,mid+1, high);
@@ -134,7 +145,7 @@ void merge_sort(SET<KEY, OTHER> a[], int left, int right){
     if (left == right) return;
     int mid = (left + right) / 2;
     merge_sort(a, left, mid);
-    merge_sort(a, left + 1, right);
+    merge_sort(a, mid + 1, right);
     merge(a, left, mid + 1, right);
 }
 
@@ -151,7 +162,7 @@ struct node {   //链表中的结点类的定义
     node *next;
 
     node() { next = nullptr; }
-    explicit node(SET<int, OTHER> d): data(d) { next = nullptr; }
+    explicit  node(SET<int, OTHER> d): data(d) { next = nullptr; }
 };
 
 template <class OTHER>

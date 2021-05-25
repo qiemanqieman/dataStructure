@@ -63,12 +63,14 @@ private:
     };
 
     node *root;
+
     void make_empty( node *t );
     bool find (node *t, const KEY &x) const;
     void delete_interval(node *&t, const KEY & x, const KEY & y);
     int size(node *t) const;
     [[nodiscard]] bool find_ith(node *t, int x) const;
     void remove(node *&t, const KEY &x);
+    void preOrder(node *t) const;
 
 public:
     binarySearchTree(){root = nullptr;}
@@ -79,6 +81,7 @@ public:
     [[nodiscard]] KEY findClosestCommonAncestor(const KEY & x, const KEY & y) const;
     void delete_interval(const KEY &x, const KEY &y);
     [[nodiscard]] bool find_ith(int x) const;
+    void preOrder() const;
 };
 
 
@@ -220,19 +223,29 @@ void binarySearchTree<KEY, OTHER>::remove(binarySearchTree::node *&t, const KEY 
     remove(t->right, p->data.key);
 }
 
+template<class KEY, class OTHER>
+void binarySearchTree<KEY, OTHER>::preOrder() const {
+    cout << "前序遍历：" << endl;
+    preOrder(root);
+    cout << endl;
+}
+
+template<class KEY, class OTHER>
+void binarySearchTree<KEY, OTHER>::preOrder(node *t) const {
+    if (!t) return;
+    cout << t->data.key << ' ';
+    preOrder(t->left);
+    preOrder(t->right);
+}
+
 
 int main()
 {
-    int n, x, y;
-    cin >> n;
-    string s;
     binarySearchTree<int, int> bs;
-    while(n--){
-        cin >> s;
-        if (s == "insert") { cin >> x; bs.insert(SET<int, int>(x,x)); }
-        if (s == "find") { cin >> x; if (bs.find(x)) cout << "Y" << endl; else cout << "N" << endl; }
-        if (s == "delete") { cin >> x; bs.remove(x); }
-        if (s == "find_ith") { cin >> x; if (!bs.find_ith(x)) cout << "N" << endl; }
-        if (s == "delete_interval") { cin >> x >> y; bs.delete_interval(x,y); }
-    }
+    for (int i = 0; i < 10; ++i)
+        bs.insert(SET<int, int>(i,i));
+    bs.preOrder();
+    bs.delete_interval(2,5);
+    bs.preOrder();
+    bs.find_ith(3);
 }

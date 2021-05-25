@@ -5,11 +5,11 @@
 template <class TypeOfVer, class TypeOfEdge>
 class graph{
 public:
-    virtual void insert(TypeOfVer x, TypeOfVer y, TypeOfEdge w) = 0;
-    virtual void remove(TypeOfVer x, TypeOfVer y) = 0;
-    virtual bool exist(TypeOfVer x, TypeOfVer y) const = 0;
-    int numOfVer() {return vers;}
-    int numOfEdge() {return edges;}
+    virtual void insert(const TypeOfVer &x, const TypeOfVer &y, TypeOfEdge w) = 0;
+    virtual void remove(const TypeOfVer &x, const TypeOfVer &y) = 0;
+    virtual bool existEdge(const TypeOfVer &x, const TypeOfVer &y) const = 0;
+    int numOfVers() {return vers;}
+    int numOfEdges() {return edges;}
     virtual ~graph()= default;
 
 protected:

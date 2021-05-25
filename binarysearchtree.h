@@ -12,7 +12,7 @@ private:
         node *left;
         node *right;
 
-        explicit node( const SET<KEY, OTHER> &x,node *lt=nullptr,  node *rt=nullptr ): data(x), left(lt), right(rt) {}
+        explicit node( const SET<KEY, OTHER> &x, node *lt=nullptr,  node *rt=nullptr ): data(x), left(lt), right(rt) {}
     };
 
     node *root;

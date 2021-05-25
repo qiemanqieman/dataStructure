@@ -1,5 +1,7 @@
 #pragma once
 #include "dynamicsearchtree.h"
+#include <iostream>
+using namespace std;
 
 
 template <class KEY, class OTHER>
@@ -17,12 +19,13 @@ class avlTree: public dynamicSearchTree<KEY, OTHER> {
 public:
     avlTree() { root = nullptr; }
     ~avlTree( ) { clear(root);}
-    SET<KEY, OTHER> *find( const KEY & x ) const;
+    SET<KEY, OTHER> * find(const KEY &x) const;
     void insert( const SET<KEY, OTHER> & x ) ;
     void remove( const KEY & x );
-    [[nodiscard]] bool is_empty() const { return root == nullptr;}
+    [[maybe_unused]] [[nodiscard]] bool is_empty() const { return root == nullptr;}
     void clear() { clear(root); root = nullptr;}
     [[nodiscard]] KEY findClosestCommonAncestor(const KEY & x, const KEY & y) const;
+    void preOrder() const;
     
 private:
     void insert( const SET<KEY, OTHER> & x, avlNode * & t ) ;
@@ -36,16 +39,16 @@ private:
     int max(int a, int b) {return (a>b)?a:b;}
     bool adjust(avlNode *&t, int subTree);
     void clear( avlNode *t );
+    void preOrder(avlNode *t) const;
 };
 
 
 template <class KEY, class OTHER>
-SET<KEY, OTHER> *avlTree<KEY, OTHER>::find( const KEY & x ) const
-{
+SET<KEY, OTHER> * avlTree<KEY, OTHER>::find(const KEY &x) const {
     avlNode *t = root;
-    while (t!=nullptr and t->data.key != x)
+    while (t and t->data.key != x)
         if (t->data.key > x) t = t->left; else t = t->right;
-    if (t==nullptr) return nullptr;
+    if (!t) return nullptr;
     else return (SET<KEY, OTHER> *) t;   // 将avlNode 强制转换为SET是可以的
 }
 
@@ -192,6 +195,23 @@ KEY avlTree<KEY, OTHER>::findClosestCommonAncestor(const KEY & x, const KEY & y)
     }
     return p->data.key;
 }
+
+template<class KEY, class OTHER>
+void avlTree<KEY, OTHER>::preOrder() const {
+    cout << "前序遍历：" << endl;
+    preOrder(root);
+    cout << endl;
+}
+
+template<class KEY, class OTHER>
+void avlTree<KEY, OTHER>::preOrder(avlTree::avlNode *t) const {
+    if (!t) return;
+    cout << t->data.key << ' ';
+    preOrder(t->left);
+    preOrder(t->right);
+}
+
+
 
 
 

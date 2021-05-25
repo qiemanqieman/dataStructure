@@ -1,7 +1,7 @@
 /* algorithm library*/
 
 #pragma once
-/*  KMP algorithm:
+/*  KMP algorithm:  字符串快速匹配算法
  * find whether sting b in a, if in, return the first position in b, else return -1*/
 int find_sub_string(const char *a, const char *b){
     int a_len = 0, b_len = 0;

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/contest1161.dir/main.cpp.o  -o contest1161 

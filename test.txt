@@ -1,0 +1,33 @@
+测试集
+
+××××××××××××××××××adjlistgraph.h 无向图欧拉回路函数 adjListGraph::eulerCircuit(...)
+char c[] = "abcdef";
+adjListGraph<char, int> g(6, c, false);
+g.insert('a', 'b');
+g.insert('a', 'c');
+g.insert('b', 'c');
+g.insert('b', 'd');
+g.insert('b', 'e');
+g.insert('c', 'd');
+g.insert('c', 'e');
+g.insert('d', 'e');
+g.insert('d', 'f');
+g.insert('e', 'f');
+g.eulerCircuit('f');
+
+
+××××××××××××××××××adjlistgraph.h 有向图拓扑排序 adjListGraph::topSort(...)
+string c[] = {"数学","程序设计","离散数学","软件工程","数据结构","数据库","编译原理"};
+adjListGraph<string, int> g(7, c, true);
+g.insert("数学", "程序设计");
+g.insert("数学", "离散数学");
+g.insert("程序设计","软件工程" );
+g.insert("程序设计","数据结构");
+g.insert("程序设计","数据库");
+g.insert("离散数学","数据结构");
+g.insert("离散数学","编译原理");
+g.insert("数据结构","编译原理");
+g.insert("数据结构","数据库");
+g.insert("数据库","软件工程");
+g.topSort();
+return 0;
